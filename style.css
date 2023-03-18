@@ -70,6 +70,38 @@ body {
     font-family: Arial,Helvetica,Verdana,sans-serif;
     font-size: 15px;
 }
+
+tbody:nth-child(even){
+    background-color: #ffbbff;
+}
+tbody:nth-child(odd){
+    background-color: #fad7fa;
+}
+tbody:hover:nth-child(1n+1){
+    background-color: #ac57af;
+    color: #fff;
+}
+table{
+    width: 1000px;
+    height: 300px;
+    border-collapse: collapse;
+    width: 500px;    
+    }   
+thead{
+    background-color: #f19fc3;
+    text-align:center;
+    height: 20px;
+}
+tbody{
+    text-align:center;
+}
+tfoot{
+    background-color: #ffb2d3;
+    text-align:center;
+    height: 20px;
+}
+
+
 .caixapre{
     display: flex;
     flex-direction: column;
@@ -155,4 +187,20 @@ body {
 }
 .mapa img{
     border-bottom-right-radius:  30px;
+}
+.conten{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    
+}
+.contab{
+    font-size: 12px;
+}
+.contab h3{
+    color: #b192af;
+}
+.contab h4{
+    color: #7a7a7a;
 }
